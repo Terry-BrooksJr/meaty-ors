@@ -132,4 +132,4 @@ def log_event(event_type, **details):
     with open("game_events.jsonl", mode) as f:
         f.write(json.dumps(event) + "\n")
 
-    _event_log_initialized = Trued
+    _event_log_initialized = True
